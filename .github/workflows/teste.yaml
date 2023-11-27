@@ -3,7 +3,7 @@ name: Test for password verifier
 on: [push, pull_request]
 	
 jobs:
-  password_verifier_tests:
+  run-tests:
     strategy:
       fail-fast: false
       matrix:
